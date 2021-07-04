@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>786</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-20</y>
+      <width>641</width>
+      <height>811</height>
+     </rect>
+    </property>
+    <property name="visible">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(140, 187, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="Geometry" stdset="0">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>651</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="adore_button">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>150</y>
+       <width>101</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 23, 68);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 50px 50px;</string>
+     </property>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancel">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>680</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(41, 121, 255);</string>
+     </property>
+     <property name="text">
+      <string>ГОТОВО</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Cancel">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>680</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(68, 138, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>ОТМЕНА</string>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="progress">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>630</y>
+       <width>511</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: blue</string>
+     </property>
+     <property name="value">
+      <number>75</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="usua_butto_0">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(215, 255, 165);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 30px 30px;</string>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="like_button_2">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>30</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(115, 236, 38);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 40px 40px;</string>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="apple">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>660</y>
+       <width>81</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../Downloads/apple.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="test_info">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>600</y>
+       <width>551</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>ТЕКСТ СООБЩАЮЩИЙ О КОЛИЧЕСТВЕ НАЖАТИЙ ДО КОНЦА ТЕСТА</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="usua_button_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>180</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(178, 255, 89);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 30px 30px;</string>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="like_button_3">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>170</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 221, 23);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 40px 40px;cccccccccc</string>
+     </property>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="adore_button_2">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>30</y>
+       <width>101</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 82, 82);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 50px 50px;</string>
+     </property>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="favour_button_ex_2">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>80</y>
+       <width>121</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 245, 0);
+color: rgb(0, 0, 0);
+font: 16pt &quot;Times New Roman&quot;;
+border-radius: 60px 60px;</string>
+     </property>
+     <property name="text">
+      <string>+</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="test_info_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>270</y>
+       <width>441</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>ПРИМЕР: ЛЮБОВЬ КО ФРУКТАМ ПО ШКАЛЕ ОТ &quot;0 ДО 5&quot;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="favour_button_ex">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>440</y>
+       <width>121</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 245, 0);
+color: rgb(0, 0, 0);
+font: 16pt &quot;Times New Roman&quot;;
+border-radius: 60px 60px;</string>
+     </property>
+     <property name="text">
+      <string>Банан</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="usua_button_ex4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>330</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(178, 255, 89);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 30px 30px;</string>
+     </property>
+     <property name="text">
+      <string>Лимон</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="usua_button_ex3">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>470</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(178, 255, 89);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 30px 30px;</string>
+     </property>
+     <property name="text">
+      <string>Киви</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="usua_button_ex2">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>330</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(215, 255, 165);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 30px 30px;</string>
+     </property>
+     <property name="text">
+      <string>Хурма</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="usua_button_ex1">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>470</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(215, 255, 165);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 30px 30px;</string>
+     </property>
+     <property name="text">
+      <string>Персик</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="adore_button_12">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>450</y>
+       <width>101</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 23, 68);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 50px 50px;</string>
+     </property>
+     <property name="text">
+      <string>Яблоко</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="adore_button_13">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>310</y>
+       <width>101</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 82, 82);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 50px 50px;</string>
+     </property>
+     <property name="text">
+      <string>Дыня</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="like_button_ex4">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>320</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(115, 236, 38);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Times New Roman&quot;;
+border-radius: 40px 40px;</string>
+     </property>
+     <property name="text">
+      <string>Груша</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="test_marks">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>201</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>ОЦЕНКИ 0 - 5 </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="test_favour_mark">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>40</y>
+       <width>201</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei UI</family>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>+ - САМЫЙ ЛЮБИМЫЙ</string>
+     </property>
+    </widget>
+    <zorder>like_button_ex4</zorder>
+    <zorder>cancel</zorder>
+    <zorder>Cancel</zorder>
+    <zorder>usua_butto_0</zorder>
+    <zorder>like_button_2</zorder>
+    <zorder>adore_button</zorder>
+    <zorder>apple</zorder>
+    <zorder>progress</zorder>
+    <zorder>test_info</zorder>
+    <zorder>usua_button_1</zorder>
+    <zorder>like_button_3</zorder>
+    <zorder>adore_button_2</zorder>
+    <zorder>favour_button_ex_2</zorder>
+    <zorder>test_info_2</zorder>
+    <zorder>favour_button_ex</zorder>
+    <zorder>usua_button_ex4</zorder>
+    <zorder>usua_button_ex3</zorder>
+    <zorder>usua_button_ex2</zorder>
+    <zorder>usua_button_ex1</zorder>
+    <zorder>adore_button_12</zorder>
+    <zorder>adore_button_13</zorder>
+    <zorder>test_marks</zorder>
+    <zorder>test_favour_mark</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>650</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
